@@ -235,7 +235,7 @@ model: deepseek/deepseek-v4-flash
 # Override per-skill with `harness: "<name>"` in the skill entry, or per-run via
 # the workflow_dispatch `harness` input. Default stays claude — everything
 # already configured keeps working unchanged.
-harness: pi
+harness: vibe
 
 # AI Gateway — route Claude Code requests through an LLM provider.
 #
